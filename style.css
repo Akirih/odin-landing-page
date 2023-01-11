@@ -1,0 +1,44 @@
+/* Debugging */
+
+*{
+    border: 1px solid red;
+} 
+
+/* Primary Elements */
+
+body {
+    display:flex;
+    flex-direction: column;
+    /* temporary justify*/
+    /* justify-content: space-around; */
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header{
+    height: 80px;    
+    background-color: gray;
+}
+
+.footer {  
+    background-color: gray;
+}
+
+.top-info{
+    height: 250px;
+}
+
+/* Secondary Elements */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow:1;
+}
+
+
+
+.main{
+    flex-grow: 1;
+}
