@@ -1,7 +1,8 @@
-/* Debugging */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 *{
     border: 1px solid red;
+    font-family: 'Roboto', sans-serif;
 } 
 
 /* Primary Elements */
@@ -9,7 +10,6 @@
 body {
     display:flex;
     flex-direction: column;
-    /* temporary justify*/
     /* justify-content: space-around; */
     min-height: 100vh;
     margin: 0;
@@ -18,14 +18,24 @@ body {
 .header{
     height: 80px;    
     background-color: gray;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    
 }
 
 .footer {  
     background-color: gray;
+    height: 80px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .top-info{
     height: 250px;
+    padding: 10px 30px;
 }
 
 /* Secondary Elements */
@@ -37,8 +47,28 @@ body {
     flex-grow:1;
 }
 
-
-
 .main{
     flex-grow: 1;
+}
+
+/* Tertiary elements */
+
+.right-header{
+    display: flex;
+    align-items: center;
+}
+
+.left-header{
+    display: flex;
+    align-items: center;
+}
+
+/* Finer details*/
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    gap:20px;
 }
